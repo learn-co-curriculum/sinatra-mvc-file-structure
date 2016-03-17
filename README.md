@@ -56,15 +56,15 @@ This folder holds our MVC directories - `models`, `views`, and `controllers`. We
 
 #### `models` directory
 
-This directory holds the logic behind our application. Typically, these files represent either a component of your application, such as a User, Post, or Comment, or a unit of work. Each file in models typically contains a different class. For example, `dog.rb` would contain a class called `Dog`. As you might have guessed, models represent the "M" components of the MVC paradigm.
+This directory holds the business information behind our application. Typically, these files represent either a component of your application, such as a User, Post, or Comment, or a unit of work. Each file in models typically contains a different class. For example, `dog.rb` would contain a class called `Dog`. As you might have guessed, models represent the "M" components of the MVC paradigm.
 
-Models represent the data and object logic of our application.
+Models represent the data and business information of our application.
 
 Create a new file in the models directory to create a dog class. This class should have name, breed, and age attributes which can be set on initialization. You should be able to read and write to these attributes.
 
 #### `controllers` directory
 
-The controllers, such as `application_controller.rb`, are where the application configurations, routes, and controller actions are implemented. There is typically a class, which in this case we will call `ApplicationController`, that represents an instance of your application when the server is up and running. The `application_controller.rb` file represents the "C" components of the MVC paradigm.
+The controllers, such as `application_controller.rb`, are where the application configurations, routes, business logic and controller actions are implemented. There is typically a class, which in this case we will call `ApplicationController`, that represents an instance of your application when the server is up and running. The `application_controller.rb` file represents the "C" components of the MVC paradigm.
 
 (In some simple applications -including several labs and code-alongs in this track - the Application Controller will simply be called `app.rb` and will live in the root directory of the project)
 
@@ -116,3 +116,11 @@ The `spec` directory contains any tests for our applications. These tests set up
 Don't forget to run your tests!
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-mvc-file-structure' title='Sinatra MVC File Structure'>Sinatra MVC File Structure</a> on Learn.co and start learning to code for free.</p>
+
+(Data Model)[https://en.wikipedia.org/wiki/Data_model]
+(Business Logic)[https://en.wikipedia.org/wiki/Business_logic]
+(Business Object/Data Model)[https://en.wikipedia.org/wiki/Business_object]
+
+
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-mvc-file-structure'>Sinatra MVC File Structure</a> on Learn.co and start learning to code for free.</p>
